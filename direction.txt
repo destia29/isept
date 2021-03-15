@@ -1,0 +1,43 @@
+---ROUTE HOSTING
+
+Hanya menambahkan route di section
+//EPT CHART BEGIN sampai dengan
+//EPT CHART ENDED
+
+Ada 5 section, tiap masing2 admin
+
+---CONTROLLER HOSTING
+
+Pada tiap folder :
+- isept/adminept
+- isept/admindekanat
+- isept/eptvaluemanager
+- islcunila
+
+host pada controller :
+- EptdepartmentController
+- EptfacultyController
+
+
+---VIEW HOSTING
+
+Pada tiap folder :
+- islcunila
+- isept/adminept
+- isept/admindekanat
+- isept/eptvaluemanager
+
+host view :
+- eptchart
+- eptfaculty
+- eptdepartment
+(bagian pdf kecuali eptvaluemanager)
+- pdffaculty
+- pdfdepartment
+- pdfuniversity
+
+
+---CONFIG
+
+-re host config/app.php untuk mengaktifkan pdfbarry
+-host snappy.php
